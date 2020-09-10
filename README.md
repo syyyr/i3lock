@@ -1,14 +1,16 @@
-**This is a forked version of i3lock, which introduces image rereading on USR1
-signal. The patch is taken from
-[here](https://github.com/i3/i3lock/pull/83).**
+## I have now gotten rid of this in favor of i3lock-color
 
-I use this with a service which creates an image with time and date every 10
+~**This is a forked version of i3lock, which introduces image rereading on USR1
+signal. The patch is taken from
+[here](https://github.com/i3/i3lock/pull/83).**~
+
+~I use this with a service which creates an image with time and date every 10
 seconds and then refreshes the image. Some guy suggested a different approach
-(by drawing something on top of i3lock), but this is enough for me for now.
+(by drawing something on top of i3lock), but this is enough for me for now.~
 
 i3lock - improved screen locker
 ===============================
-[i3lock](https://i3wm.org/i3lock/)> is a simple screen locker like slock.
+[i3lock](https://i3wm.org/i3lock/) is a simple screen locker like slock.
 After starting it, you will see a white screen (you can configure the
 color/an image). You can return to your screen by entering your password.
 
